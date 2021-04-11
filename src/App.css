@@ -1,0 +1,114 @@
+.main {
+    width: 400px;
+    height: 650px;
+    background-color: gold;
+    margin: 0 auto;
+    background-image: url("./assets/city2.jpeg");
+
+}
+
+.main_content {
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+
+}
+
+.temperature {
+    width: 110px;
+    font-weight: inherit;
+    color: white;
+    font-size: 80px;
+    margin-left: 20%;
+    letter-spacing: -1px;
+    padding-top: 5px;
+}
+
+.temperature2 {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    /*font-weight: inherit;*/
+    color: white;
+    font-size: 75pt;
+    letter-spacing: -1px;
+    padding-top: 5px;
+}
+
+.temperature_current {
+    float: right;
+}
+
+.city {
+    width: 180px;
+    color: white;
+    font-size: 18pt;
+    margin-left: 20%;
+    float: left;
+}
+
+.weatherInfo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.city2 {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    color: white;
+    font-size: 32pt;
+}
+
+.temperature_details {
+    color: white;
+    margin-top: 6rem;
+    font-size: 14pt;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 80px;
+}
+
+.temperature_container2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18pt;
+    width: 400px;
+    margin-top: 0.5rem;
+}
+
+.temperature_container {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18pt;
+    width: 400px;
+}
+
+.pressure{
+    margin-bottom: 30px;
+}
+
+.wind{
+    margin-bottom: 30px;
+}
+
+/*.pressureHumidity {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.wind {
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    -webkit-align-content: flex-end;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}*/
+
